@@ -33,8 +33,5 @@ public class DemoService {
         //send(msg);
     }
 
-    public void fallback2(String msg, Exception ex){
-        log.info("CB fallback");
-        //send(msg);
-    }
+
 }
